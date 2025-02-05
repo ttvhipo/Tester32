@@ -68,10 +68,12 @@ body {
 }
 
 /* Bottom Menu Container */
+/* Bottom Menu Container */
 .bottom-menu-container {
     width: 100%;
-    border: 1px solid gray; /* Gray border */
+    border: 10px solid #20252b; /* Gray border */
     border-radius: 10px; /* Rounded corners */
+    background-color: #2a2a2a; /* Corrected colon for gray fill */
     padding: 10px;
     margin-top: 20px;
 }
