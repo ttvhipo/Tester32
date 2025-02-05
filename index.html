@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic QR Ticket</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <span class="time">22:03</span>
+            <a href="#" class="replacement-link">Register replacement guarantee</a>
+        </div>
+        <div class="ticket">
+            <h3>Single SL ticket</h3>
+            <div id="qrcode" class="qrcode"></div>
+            <p class="code-number">2 4608 8193 2114</p>
+            <div class="ticket-info">
+                <div class="time-left">
+                    <strong>Time left</strong>
+                    <span id="time-remaining">1 hour, 4 minutes</span>
+                </div>
+                <div class="price-group">
+                    <strong>Price group</strong>
+                    <span>Discounted</span>
+                </div>
+            </div>
+        </div>
+        <button class="action-button">Buy app ticket</button>
+        <div class="bottom-menu-container">
+            <nav class="bottom-menu">
+                <span>Travel</span>
+                <span>App tickets</span>
+                <span>SL card</span>
+            </nav>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
