@@ -1,0 +1,86 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 20px;
+    color: lightgray;
+}
+
+.replacement-link {
+    color: #4a90e2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Ticket Section */
+.ticket {
+    background: url('https://cdn.discordapp.com/attachments/1261451404745113611/1336713204717457408/IMG_0875.png?ex=67a4ceae&is=67a37d2e&hm=03ae98a78794627cb96c4c902d3656c89d946885f36a5a2c1249d6aa0f7271e4&') 
+        no-repeat center center;
+    background-size: contain; /* Make image scale down to fit within the div */
+    background-position: center; /* Keep the image centered */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    max-height: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+/* Remove or hide the time and price group (assuming they are inside these elements) */
+.ticket .time-left,
+.ticket .price-group {
+    display: none;
+}
+
+/* Button */
+.action-button {
+    background-color: #2970f0;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 150px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Bottom Menu Container */
+.bottom-menu-container {
+    width: 100%;
+    border: 1px solid gray; /* Gray border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Bottom Menu */
+.bottom-menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: lightgray;
+    font-size: 14px;
+}
