@@ -5,7 +5,6 @@ body {
     background-color: #121212;
     color: white;
     text-align: center;
-    overflow: hidden; /* Prevent scrolling */
 }
 
 /* Main Container */
@@ -13,10 +12,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh; /* Full viewport height */
-    justify-content: space-between;
     padding: 20px;
-    box-sizing: border-box; /* Ensure padding is included in height */
+    height: 100vh;
+    justify-content: space-between;
 }
 
 /* Header Section */
@@ -38,8 +36,8 @@ body {
 .ticket {
     background: url('https://cdn.discordapp.com/attachments/1261451404745113611/1336713204717457408/IMG_0875.png?ex=67a4ceae&is=67a37d2e&hm=03ae98a78794627cb96c4c902d3656c89d946885f36a5a2c1249d6aa0f7271e4&') 
         no-repeat center center;
-    background-size: contain; /* Scale image */
-    background-position: center;
+    background-size: contain; /* Make image scale down to fit within the div */
+    background-position: center; /* Keep the image centered */
     border-radius: 10px;
     padding: 20px;
     margin: 20px 0;
@@ -64,19 +62,22 @@ body {
     border: none;
     border-radius: 8px;
     padding: 20px 150px;
-    font-size: 16px;
+    font-size: 14px;
     margin-top: 10px;
     cursor: pointer;
+    margin-bottom: 20px;
+     font-weight: bold;
 }
 
 /* Bottom Menu Container */
+/* Bottom Menu Container */
 .bottom-menu-container {
     width: 100%;
-    border: 10px solid #20252b;
-    background-color: #2a2a2a;
-    padding: 10px;
-    margin-top: 20px;
-    box-sizing: border-box;
+    border: 25px solid #20252b; /* Gray border */
+    background-color: #2a2a2a; /* Corrected colon for gray fill */
+    padding: 20px;
+    margin-top: 10px;
+     box-sizing: border-box;
 }
 
 /* Bottom Menu */
